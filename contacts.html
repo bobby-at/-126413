@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>SMOKE - Контакти</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html"><div class="logo"><img src="logo.png" alt="logo"></div></a>
+        <a href="index.html"><div class="logo" style="margin-left: -140px;">SMOKE</div></a>
+        <div class="nav">
+            <a href="index.html">Каталог</a>
+            <a href="about.html">Относно</a>
+            <a href="activity.html">Дейност</a>
+            <a href="news.html">Новини</a>
+            <a href="contacts.html" style="color:#fff; border-bottom: 2px solid #66c0f4;">Контакти</a>
+            <a href="faq.html">Често задавани въпроси</a>
+        </div>
+        <div class="user-profile">
+            <span>Проверяващ</span> 
+            <div class="avatar"><img src="user.png"></div>
+            <a href="" class="cart"><img style="height: 28px; width: 28px;" src="cart.png"></a>
+        </div>
+    </div>
+
+<div class="info">
+<div class="container">
+    <h3 style="font-weight: bold;">Контактна информация:</h3>
+    <p style="">
+        <b>Адрес:</b> Бул. „Княз Борис I-ви“ 77, Варна<br>
+        <b>Телефон:</b> +359 88 611 5331<br>
+        <b>E-mail:</b> smoke@gmail.com<br>
+    </p>
+</div>
+</div>
+
+<div class="location">
+    <div class="container">
+        <h3>Нашето местополжение</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.0206137510545!2d27.921026075977576!3d43.20905697112672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4540939dfa6d5%3A0x3d401ef3c09a59bf!2sUniversity%20of%20Economics%20%E2%80%93%20Varna!5e0!3m2!1sen!2sbg!4v1767636277160!5m2!1sen!2sbg" width="938" height="450" style="border:0; border-radius: 4px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+    <div class="form">
+<div class="container">
+<h3>Форма за контакт</h3>
+  <form action="/action_page.php">
+    <label for="fname">Име</label>
+    <input type="text" id="fname" name="firstname" placeholder="Вашето име">
+
+    <label for="lname">Фамилия</label>
+    <input type="text" id="lname" name="lastname" placeholder="Вашата фамилия">
+
+    <label for="country">Държава</label>
+    <select id="country" name="country">
+      <option value="bg">България</option>
+      <option value="r">Румъния</option>
+      <option value="g">Гърция</option>
+      <option value="s">Сърбия</option>
+      <option value="t">Турция</option>
+      <option value="nm">Северна Македония</option>
+    </select>
+
+    <label for="subject">Изпрати</label>
+    <textarea id="subject" name="subject" placeholder="Вашето съобщение" style="height:200px; font-family: Arial, Helvetica, sans-serif;"></textarea>
+
+    <input type="submit" value="Изпрати">
+  </form>
+</div>
+    </div>
+
+    <div id="footer">
+        <div class="footer-links">
+    <a href="index.html">Каталог</a>
+    <a href="about.html">Относно</a>
+    <a href="activity.html">Дейност</a>
+    <a href="news.html">Новини</a>
+    <a href="contacts.html">Контакти</a>
+    <a href="faq.html">Често задавани въпроси</a>
+  </div>
+  <div class="footer-social">
+    <a href="" target="_blank">Facebook</a>
+    <a href="" target="_blank">Instagram</a>
+    <a href="" target="_blank">YouTube</a>
+  </div>
+    <br>
+  <p class="footer-copy">© 2026 SMOKE | Всички права запазени</p>
+    </div>
+
+    </div>
+    <script>
+  function slide(direction) {
+    const track = document.getElementById('track');
+    const cardWidth = track.querySelector('.card-category').offsetWidth + 20;
+    
+    track.scrollLeft += direction * cardWidth;
+  }
+</script>
+
+</body>
+</html>

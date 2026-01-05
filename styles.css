@@ -1,0 +1,276 @@
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #00142b; color: #c6d4df; }
+    /* Header */
+        .header { background-color: #0c304b; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #3c3c3c;}
+        .logo { font-size: 24px; font-weight: bold; color: #fff; text-transform: uppercase; letter-spacing: 2px;}
+        a{text-decoration: none;}
+        .nav { display: flex; gap: 20px; font-size: 14px; text-transform: uppercase; text-decoration: none;}
+        .nav a:link {color: #b8b6b4;}
+        .nav a:visited {color: #b8b6b4;}
+        .nav a:hover { color: #fff; cursor: pointer; }
+        .user-profile { display: flex; align-items: center; gap: 10px; color: #66c0f4; font-weight: bold; }
+        .avatar { width: 32px; height: 32px; background: #3d4450; border: 1px solid #66c0f4; margin-right: 100px; border-radius: 4px;}
+        
+    /* Main Container */
+        .container { max-width: 940px; margin: 0 auto; padding: 20px; }
+        
+    /* Grid */
+        .section-title { font-size: 18px; margin-bottom: 10px; color: #fff;}
+        .game-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+        .category-grid {display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+        
+    /* Game Card */
+        .card { background-color: #0c304b; padding: 10px; transition: transform 0.2s; display: flex; flex-direction: column; border-radius: 4px;}
+        .card:hover { transform: scale(1.02); background-color: #0a273e; }
+        .card-img { height: 120px; background-color: #000; margin-bottom: 10px; display: flex; border-radius: 4px; align-items: center; justify-content: center; color: #555; font-size: 12px; }
+        .card-title { font-size: 16px; color: #fff; margin-bottom: 5px; }
+        .card-genre { font-size: 12px; color: #8f98a0; margin-bottom: 10px; }
+        .price-row { display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
+        .price { color: #fff; font-size: 14px; }
+        .buy-btn { background-color: #5c7e10; color: #fff; padding: 5px 10px; border: none; font-size: 12px; cursor: pointer; border-radius: 4px; }
+        .buy-btn:hover {background-color: #4a660e;}
+
+    /* Footer*/
+        #footer {
+        background-color: #0c304b;
+        color: #ffffff;
+        padding: 25px 10px;
+        text-align: center;
+        margin-top: 40px;
+        }
+
+        #footer a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: 500;
+        }
+
+        #footer a:hover {
+        text-decoration: underline;
+        }
+
+        .footer-links {
+        margin-bottom: 10px;
+        }
+
+        .footer-social {
+        margin-bottom: 10px;
+        margin-top: 40px;
+        }
+
+        .footer-copy {
+        font-size: 14px;
+        opacity: 0.8;
+        }
+
+        /*cart*/
+        .cart:hover {
+            filter: drop-shadow(2px 2px 5px #66c0f4);
+        }
+
+        /*Category*/
+        .slider-wrapper {
+        display: flex;
+        align-items: center;
+        }
+        .nav-btn {
+        border-radius: 4px;
+        background-color: #333;
+        color: white;
+        border: none;
+        width: 20px;
+        height: 60px;
+        cursor: pointer;
+        font-size: 20px;
+        }
+        .nav-btn:hover { background-color: #555; }
+
+        .slider-track {
+        padding-left: 8px;
+        display: flex;
+        overflow-x: hidden; /* скролбар */
+        scroll-behavior: smooth;
+        gap: 18px;
+        margin: 0 13px; /* Разстояние между стрелките и кутиите */
+        width: 100%;
+        }
+
+        .card-category {
+        min-width: 105px; 
+        height: 150px;
+        background-color: #0c304b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+        border-radius: 4px;
+        }
+
+        /*form*/
+        input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #66c0f4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5cabd8;
+}
+
+.info{
+    text-align: center;
+    align-items: center;
+    background-color: #001934;
+}
+
+/*about*/
+
+.about-text {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #c6d4df;
+            margin-bottom: 40px;
+            background-color: #0c304b;
+            padding: 30px;
+            border-radius: 4px;
+            border-left: 4px solid #66c0f4;
+        }
+
+        .big-stat {
+            font-size: 36px;
+            font-weight: bold;
+            color: #66c0f4;
+            margin: 10px 0;
+            text-align: center;
+        }
+        
+        .stat-label {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        h1, h2 {
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /*Дейност*/
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #0c304b;
+            color: #c6d4df;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #3c3c3c;
+        }
+
+        th {
+            background-color: #0a273e;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+        }
+
+        tr:hover {
+            background-color: #1a3d5c;
+        }
+
+        .check { color: #5c7e10; font-weight: bold; }
+        .cross { color: #a94442; font-weight: bold; }
+
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .project-list li {
+            background-color: #0c304b;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-left: 4px solid #66c0f4;
+            color: #fff;
+        }
+
+        .project-status {
+            float: right;
+            font-size: 12px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+        
+        .status-active { background-color: #5c7e10; }
+        .status-dev { background-color: #d48900; color: #000; }
+
+
+        /*Card*/
+        
+a.card-category {
+    display: flex;
+    flex-direction: column;       
+    align-items: center;   
+    justify-content: center;    
+    
+    min-width: 140px;           
+    height: 140px;
+    margin: 0 8px;              
+    
+    text-decoration: none;      
+    border-radius: 12px;         
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); 
+    transition: transform 0.2s, box-shadow 0.2s; 
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    overflow: hidden;            
+}
+
+
+a.card-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+/* Emoji */
+.emoji-icon {
+    font-size: 42px;              
+    margin-bottom: 8px;           
+    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.3)); 
+}
+
+/* Text Styling */
+.card-text {
+    font-size: 14px;
+    font-weight: 700;            
+    text-transform: uppercase;    
+    letter-spacing: 1px;         
+    text-align: center;
+    margin: 0;                   
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4); 
+}
+

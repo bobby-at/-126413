@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>SMOKE - FAQ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html"><div class="logo"><img src="logo.png" alt="logo"></div></a>
+        <a href="index.html"><div class="logo" style="margin-left: -140px;">SMOKE</div></a>
+        <div class="nav">
+            <a href="index.html">Каталог</a>
+            <a href="about.html">Относно</a>
+            <a href="activity.html">Дейност</a>
+            <a href="news.html">Новини</a>
+            <a href="contacts.html">Контакти</a>
+            <a href="faq.html" style="color:#fff; border-bottom: 2px solid #66c0f4;">Често задавани въпроси</a>
+        </div>
+        <div class="user-profile">
+            <span>Проверяващ</span> 
+            <div class="avatar"><img src="user.png"></div>
+            <a href="" class="cart"><img style="height: 28px; width: 28px;" src="cart.png"></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Често задавани въпроси (FAQ)</h1>
+        
+        <div class="about-text">
+            Тук ще откриете отговори на най-често срещаните въпроси относно покупката, активирането на игри и вашия профил в SMOKE. Ако не намирате отговора тук, моля свържете се с нас чрез страницата "Контакти".
+        </div>
+
+        <h2 style="border-bottom: 1px solid #3c3c3c; padding-bottom: 10px;">🛒 Поръчки и Плащане</h2>
+        
+        <div class="game-grid" style="grid-template-columns: 1fr;">
+            
+            <div class="card" style="padding: 20px; cursor: default;">
+                <div class="card-title" style="color: #66c0f4;">Как получавам играта след покупка?</div>
+                <div class="card-genre" style="font-size: 14px; color: #c6d4df; margin-bottom: 0;">
+                    SMOKE е дигитален магазин. След успешно плащане, ще получите <strong>лицензионен ключ (CD Key)</strong> на посочения от вас имейл адрес, както и в секцията "Моите поръчки" във вашия профил. Доставката е мигновена.
+                </div>
+            </div>
+
+            <div class="card" style="padding: 20px; cursor: default;">
+                <div class="card-title" style="color: #66c0f4;">Какви методи на плащане приемате?</div>
+                <div class="card-genre" style="font-size: 14px; color: #c6d4df; margin-bottom: 0;">
+                    Приемаме всички основни видове дебитни и кредитни карти (Visa, Mastercard), PayPal, както и EasyPay за клиенти в България. Всички транзакции са криптирани и сигурни.
+                </div>
+            </div>
+
+            <div class="card" style="padding: 20px; cursor: default;">
+                <div class="card-title" style="color: #66c0f4;">Мога ли да върна закупена игра?</div>
+                <div class="card-genre" style="font-size: 14px; color: #c6d4df;">
+                    Поради естеството на дигиталните продукти, връщане на сумата е възможно <strong>САМО</strong> ако ключът все още не е бил визуализиран (разкрит) от вас. Ако сте отворили имейла и сте видели кода, той се счита за използван.
+                </div>
+            </div>
+
+        </div>
+
+        <br><br>
+        
+        <div class="about-text" style="text-align: center; margin-bottom: -15px;">
+            <h3>Още въпроси?</h3>
+            <p>Нашият екип е на линия да помогне.</p>
+            <a href="contacts.html"><button class="feat-btn">СВЪРЖИ СЕ С НАС</button></a>
+        </div>
+    </div>
+
+<div id="footer">
+        <div class="footer-links">
+    <a href="index.html">Каталог</a>
+    <a href="about.html">Относно</a>
+    <a href="activity.html">Дейност</a>
+    <a href="news.html">Новини</a>
+    <a href="contacts.html">Контакти</a>
+    <a href="faq.html">Често задавани въпроси</a>
+  </div>
+  <div class="footer-social">
+    <a href="" target="_blank">Facebook</a>
+    <a href="" target="_blank">Instagram</a>
+    <a href="" target="_blank">YouTube</a>
+  </div>
+<br>
+  <p class="footer-copy">© 2026 SMOKE | Всички права запазени</p>
+    </div>
+
+    </div>
+<script>
+  function slide(direction) {
+    const track = document.getElementById('track');
+    const cardWidth = track.querySelector('.card-category').offsetWidth + 20;
+    
+    track.scrollLeft += direction * cardWidth;
+  }
+</script>
+
+</body>
+</html>

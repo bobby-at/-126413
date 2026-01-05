@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>SMOKE - Каталог</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html"><div class="logo"><img src="logo.png" alt="logo"></div></a>
+        <a href="index.html"><div class="logo" style="margin-left: -140px;">SMOKE</div></a>
+        <div class="nav">
+            <a href="index.html" style="color:#fff; border-bottom: 2px solid #66c0f4;">Каталог</a>
+            <a href="about.html">Относно</a>
+            <a href="activity.html">Дейност</a>
+            <a href="news.html">Новини</a>
+            <a href="contacts.html">Контакти</a>
+            <a href="faq.html">Често задавани въпроси</a>
+        </div>
+        <div class="user-profile">
+            <span>Проверяващ</span> 
+            <div class="avatar"><img src="user.png"></div>
+            <a href="" class="cart"><img style="height: 28px; width: 28px;" src="cart.png"></a>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="section-title">Класики</div>
+        <div class="game-grid">
+            
+            <div class="card">
+                <div class="card-img"><img src="cs2.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Counter-Strike 2</div>
+                <div class="card-genre">Шуутър | Valve</div>
+                <div class="price-row">
+                    <div class="price">Безплатно</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img"><img src="cb.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Cyberpunk 2077</div>
+                <div class="card-genre">RPG | CD Projekt Red</div>
+                <div class="price-row">
+                    <div class="price">59.99€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img"><img src="fi.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">FIFA 24</div>
+                <div class="card-genre">Спорт | EA Sports</div>
+                <div class="price-row">
+                    <div class="price">69.99€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="card-img"><img src="hades.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Hades</div>
+                <div class="card-genre">Роуг | Supergiant</div>
+                <div class="price-row">
+                    <div class="price">24.99€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="card-img"><img src="st.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Stardew Valley</div>
+                <div class="card-genre">Симулация | ConcernedApe</div>
+                <div class="price-row">
+                    <div class="price">14.99€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img"><img src="tf.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Team Fortress 2</div>
+                <div class="card-genre">Шуутър | Valve</div>
+                <div class="price-row">
+                    <div class="price">Безплатно</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<div class="container">
+    <div class="section-title">Категории</div><br>
+    <div class="slider-wrapper">
+      <button class="nav-btn" onclick="slide(-1)">&#10094;</button>
+      <div class="slider-track" id="track">
+        <a href="" class="card-category" style="background-size: cover; background-position: center; color: white; border: 2px solid #fff;">
+             <span class="emoji-icon">🎬</span>
+             <p>Екшън</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: white; border: 2px solid #fff;">
+            <span class="emoji-icon">🏰</span>
+            <p>Платформър</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: rgb(255, 255, 255); border: 2px solid #fff;">
+            <span class="emoji-icon">👻</span>
+            <p>Хорър</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: rgb(255, 255, 255); border: 2px solid #fff;">
+            <span class="emoji-icon">🥊</span>
+            <p>Файтинг</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: rgb(255, 255, 255); border: 2px solid #fff;">
+            <span class="emoji-icon">🧩</span>
+            <p>Пъзел</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: rgb(255, 255, 255); border: 2px solid #fff;">
+            <span class="emoji-icon">♟️</span>
+            <p>Стратегия</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: rgb(255, 255, 255); border: 2px solid #fff;">
+            <span class="emoji-icon">🏎️</span>
+            <p>Състезание</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: rgb(255, 255, 255); border: 2px solid #fff;">
+            <span class="emoji-icon">⚽</span>
+            <p>Спорт</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: white; border: 2px solid #fff;">
+            <span class="emoji-icon">🔫</span>
+            <p>Шуутър</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: white; border: 2px solid #fff;">
+            <span class="emoji-icon">⚔️</span>
+            <p>MOBA</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: rgb(255, 255, 255); border: 2px solid #fff;">
+            <span class="emoji-icon">🎯</span>
+            <p>FPS</p>
+        </a>
+
+        <a href="" class="card-category" style="background-color: #0c304b; color: rgb(255, 255, 255); border: 2px solid #fff;">
+            <span class="emoji-icon">🐉</span>
+            <p>RPG</p>
+        </a>
+      </div>
+      <button class="nav-btn" onclick="slide(1)">&#10095;</button>
+    </div>
+  </div>
+        <div class="container">
+        <div class="section-title">Най-популярни</div>
+        <div class="game-grid">
+            
+            <div class="card">
+                <div class="card-img"><img src="fall.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Fallout 4</div>
+                <div class="card-genre">RPG | Valve</div>
+                <div class="price-row">
+                    <div class="price">19.90€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img"><img src="bal.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Baldur's Gate</div>
+                <div class="card-genre">RPG | Larian</div>
+                <div class="price-row">
+                    <div class="price">59.99€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img"> <img src="hol.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Hollow Knight: Silksong</div>
+                <div class="card-genre">Платформър | Team Cherry</div>
+                <div class="price-row">
+                    <div class="price">69.99€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="card-img"><img src="wi.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Witcher 3</div>
+                <div class="card-genre">RPG | CD Projekt Red</div>
+                <div class="price-row">
+                    <div class="price">24.99€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="card-img"><img src="bala.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">Balatro</div>
+                <div class="card-genre">Симулация | LocalThunk</div>
+                <div class="price-row">
+                    <div class="price">14.99€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img"><img src="bin.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"></div>
+                <div class="card-title">The Binding of Isaac</div>
+                <div class="card-genre">Екшън | Nicalis</div>
+                <div class="price-row">
+                    <div class="price">14.99€</div>
+                    <button class="buy-btn">Добави към количка</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+<div id="footer">
+        <div class="footer-links">
+    <a href="index.html">Каталог</a>
+    <a href="about.html">Относно</a>
+    <a href="activity.html">Дейност</a>
+    <a href="news.html">Новини</a>
+    <a href="contacts.html">Контакти</a>
+    <a href="faq.html">Често задавани въпроси</a>
+  </div>
+  <div class="footer-social">
+    <a href="" target="_blank">Facebook</a>
+    <a href="" target="_blank">Instagram</a>
+    <a href="" target="_blank">YouTube</a>
+  </div>
+<br>
+  <p class="footer-copy">© 2026 SMOKE | Всички права запазени</p>
+    </div>
+
+    </div>
+<script>
+  function slide(direction) {
+    const track = document.getElementById('track');
+    const cardWidth = track.querySelector('.card-category').offsetWidth + 20;
+    
+    track.scrollLeft += direction * cardWidth;
+  }
+</script>
+
+</body>
+</html>
