@@ -274,3 +274,86 @@ a.card-category:hover {
     text-shadow: 0 1px 3px rgba(0,0,0,0.4); 
 }
 
+
+/* МОБИЛНА ВЕРСИЯ */
+@media screen and (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .logo { 
+        margin-left: 0 !important; 
+        text-align: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav a {
+        display: block;
+        padding: 10px;
+        background-color: #0f3d5e; 
+        border-radius: 4px;
+    }
+
+    .user-profile {
+        margin-top: 10px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .avatar {
+        margin-right: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 24px; 
+        text-align: center;
+    }
+
+    .game-grid, .category-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    iframe, video {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+
+    .slider-track {
+        gap: 10px;
+    }
+    
+    .nav-btn {
+        display: none;
+    }
+    
+    .slider-track {
+        overflow-x: scroll; 
+    }
+    
+    input[type=text], select, textarea {
+        font-size: 16px;
+    }
+}

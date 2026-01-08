@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>SMOKE - Контакти</title>
+
+    <meta name="description" content="Ако искаш да се свържеш със Smoke си попаднал на правилното място">
+    <meta name="keywords" content="игри, евтини игри, pc gaming, дигитална дистрибуция, smoke магазин">
+    <meta name="author" content="SMOKE Team">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="icon.ico">
 </head>
@@ -47,7 +54,7 @@
     <div class="form">
 <div class="container">
 <h3>Форма за контакт</h3>
-  <form action="/action_page.php">
+  <form action="#" id="contactForm">
     <label for="fname">Име</label>
     <input type="text" id="fname" name="firstname" placeholder="Вашето име">
 
@@ -64,7 +71,7 @@
       <option value="nm">Северна Македония</option>
     </select>
 
-    <label for="subject">Изпрати</label>
+    <label for="subject">Вашето съобщение</label>
     <textarea id="subject" name="subject" placeholder="Вашето съобщение" style="height:200px; font-family: Arial, Helvetica, sans-serif;"></textarea>
 
     <input type="submit" value="Изпрати">
@@ -91,14 +98,16 @@
     </div>
 
     </div>
-    <script>
-  function slide(direction) {
-    const track = document.getElementById('track');
-    const cardWidth = track.querySelector('.card-category').offsetWidth + 20;
     
-    track.scrollLeft += direction * cardWidth;
-  }
+<script>
+
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        alert("Вашето съобщение беше изпратено успешно!");
+        window.location.href = "contacts.html";
+    });
 </script>
+
 
 </body>
 </html>
